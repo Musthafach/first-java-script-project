@@ -58,12 +58,33 @@ body{
 }
 
 .kitchen-items-list li{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
     background-color: #024d34;
-    width: 250px;
-    height: 35px;
-    padding: 10px 10px 0;
+    width: 300px;
+    height: 40px;
+    padding: 10px ;
+    margin: 10px ;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    color: #fff; /* newly added */
 }
 
+.fa-trash, .fa-edit{
+    background-color: #fff;
+    color: #000;
+    padding: 6px 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 3px; 
+}
+
+/* newly added */
+.fa-trash{
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
 
